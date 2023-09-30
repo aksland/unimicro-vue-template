@@ -1,0 +1,1 @@
+## Sample for a Vue Js client
