@@ -31,13 +31,13 @@ const onLoginClick = () => {
       </p>
       <div className="code-block">
         <code>
-          {{ `VITE_IDENTITY_SERVER_BASE_URL="<VALUE>"` }}
+          {{ `VITE_IDENTITY_SERVER_BASE_URL="https://test-login.softrig.com"` }}
           <br />{{ `VITE_CLIENT_ID="<VALUE>"` }}
-          <br />{{ `VITE_IDENTITY_SERVER_SCOPES="<VALUE>"` }}
-          <br />{{ `VITE_REDIRECT_URL="<VALUE>"` }}
-          <br />{{ `VITE_POST_LOGOUT_REDIRECT_URL="<VALUE>"` }}
-          <br />{{ `VITE_SILENT_REDIRECT_UR="<VALUE>"` }}
-          <br />{{ `VITE_API_BASE_URL="<VALUE>"` }}
+          <br />{{ `VITE_IDENTITY_SERVER_SCOPES="openid profile AppFramework"` }}
+          <br />{{ `VITE_REDIRECT_URL="http://localhost:5173/auth-callback"` }}
+          <br />{{ `VITE_POST_LOGOUT_REDIRECT_URL="http://localhost:5173"` }}
+          <br />{{ `VITE_SILENT_REDIRECT_UR="http://localhost:5173"` }}
+          <br />{{ `VITE_API_BASE_URL="https://test.softrig.com/api"` }}
         </code>
       </div>
     </div>
